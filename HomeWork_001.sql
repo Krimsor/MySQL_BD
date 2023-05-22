@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `hw_001`.`phone_base` (
   `Price` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`));
 
---	Создайте таблицу с мобильными телефонами, используя графический интерфейс. Заполните БД данными.
+-- Создайте таблицу с мобильными телефонами, используя графический интерфейс. Заполните БД данными.
 
 INSERT INTO `hw_001`.`phone_base` (`Product_name`, `Manufacturer`, `Product_count`, `Price`) VALUES ('iPhone X', 'Apple', '3', '76000');
 INSERT INTO `hw_001`.`phone_base` (`Product_name`, `Manufacturer`, `Product_count`, `Price`) VALUES ('iPhone 8', 'Apple', '2', '51000');
