@@ -35,7 +35,7 @@ SELECT Product_name, Manufacturer, Product_count, Price, Price * Product_count A
 FROM phone_base
 WHERE Price * Product_count > 100000 AND Price * Product_count < 145000;
 
--- С помощью регулярных выражений найти nовары, в которых есть упоминание "Iphone"
+-- С помощью регулярных выражений найти товары, в которых есть упоминание "Iphone"
 
 SELECT * FROM phone_base
 WHERE Product_name 
