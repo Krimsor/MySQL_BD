@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS HomeWork_006;
 USE HomeWork_006;
 
 -- 1.    Создайте функцию, которая принимает кол-во сек и форматирует их в кол-во дней, часов, минут и секунд.
--- Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds '
+-- Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds ' (256174 ->'2 days 23 hours 9 minutes 34 seconds ')
 
 DELIMITER //
 CREATE PROCEDURE second_counter(num INT)
@@ -28,7 +28,7 @@ CALL second_counter(256174);
 
 
 -- 2.    Выведите только четные числа от 1 до 10 включительно.
--- Пример: 2,4,6,8,10 (можно сделать через шаг +  2: х = 2, х+=2)
+-- Пример: 2,4,6,8,10 (можно сделать через шаг +  2: х = 2, х+=2) (10, 12, 14, 16, 18, 20 )
 
 DELIMITER //
 CREATE PROCEDURE get_even(start INT, end INT)
